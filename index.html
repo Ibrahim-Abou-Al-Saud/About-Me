@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AboutMe</title>
+    <!-- swiper css -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- header design -->
+    <header class="header">
+      <a href="#" class="logo pop">About <span class="pop">Me</span></a>
+
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">skills</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="bx bx-moon" id="darkMode-icon"></div>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3 class="pop">Hello, I am</h3>
+        <h1 class="bun">Ibrahim Abou Al-Saud</h1>
+        <p class="pop">
+          I'm a web developer who loves to create beautiful and functional
+          websites.
+        </p>
+        <p>
+          Have programming skills like Java, SQL, HTML, CSS, Bootstrap,
+          JavaScript, Typescript and Angular.
+        </p>
+
+        <div class="social-media">
+          <a href="https://www.facebook.com/ibrahim.aboalsaod.1" target="_blank"
+            ><i class="bx bxl-facebook"></i
+          ></a>
+          <a href="https://github.com/Ibrahim-Abou-Al-Saud" target="_blank"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/ibrahim-abou-al-saud-89264a224"
+            target="_blank"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+        </div>
+
+        <a
+          href="https://drive.google.com/file/d/1pTA6chrtrHOg5HRHkzKATJj8w1Nc64jG/view?usp=sharing"
+          target="_blank"
+          class="btn"
+          >Download CV</a
+        >
+      </div>
+
+      <div class="profession-container">
+        <div class="profession-box">
+          <div class="profession" style="--i: 0">
+            <i class="bx bx-code-alt"></i>
+            <h3>Software Developer</h3>
+          </div>
+          <div class="profession" style="--i: 1">
+            <i class="bx bx-code-alt"></i>
+            <h3>Web Developer</h3>
+          </div>
+          <div class="profession" style="--i: 2">
+            <i class="bx bx-palette"></i>
+            <h3>Web Designer</h3>
+          </div>
+          <div class="profession" style="--i: 3">
+            <i class="bx bx-code-alt"></i>
+            <h3>Programmer</h3>
+          </div>
+
+          <div class="circle"></div>
+        </div>
+
+        <div class="overlay"></div>
+      </div>
+
+      <div class="home-img">
+        <img src="images/home.png" alt="" />
+      </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/about.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>
+          Hi there, welcome to my website! I'm Ibrahim, a passionate web
+          developer who enjoys learning new technologies and solving problems
+          with code!
+        </h3>
+        <p>
+          This website is my personal blog where I write about web development
+          topics that interest me and inspire me.
+        </p>
+        <p>
+          Thank you for visiting my website and getting to know me better. I
+          hope you enjoyed reading my blog posts and found them useful and
+          informative. If you want to read more of my posts, subscribe to my
+          newsletter where I send weekly updates on web development trends and
+          tips. If you have any feedback or suggestions, please let me know. I'd
+          love to hear from you.
+        </p>
+        <a href="#" class="btn">Read More</a>
+      </div>
+    </section>
+
+    <!-- skills section design -->
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>skills</span></h2>
+
+      <div class="skills-container">
+        <p>
+          Have programming skills like Java, SQL, HTML, CSS, Bootstrap,
+          JavaScript, Typescript and Angular.
+        </p>
+        <div class="skill-box">
+          <div class="skill-name">Java</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="99%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="88%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Bootstrap</div>
+          <div class="skill-progress">
+            <span data-progress="98%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress">
+            <span data-progress="70%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Typescript</div>
+          <div class="skill-progress">
+            <span data-progress="88%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">Angular</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+      <h2 class="heading">Latest <span>Project</span></h2>
+
+      <div class="portfolio-container">
+        <div class="portfolio-box">
+          <img src="images/portfolio1.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, ipsam est.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio2.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, ipsam est.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio3.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, ipsam est.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio4.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, ipsam est.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio5.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, ipsam est.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+        <div class="portfolio-box">
+          <img src="images/portfolio6.jpg" alt="" />
+
+          <div class="portfolio-layer">
+            <h4>Web Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, ipsam est.
+            </p>
+            <a href="#"><i class="bx bx-link-external"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me!</span></h2>
+
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Email Address" />
+        </div>
+        <div class="input-box">
+          <input type="number" placeholder="Mobile Number" />
+          <input type="text" placeholder="Email Subject" />
+        </div>
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Your Message"
+        ></textarea>
+        <input type="submit" value="Send Message" class="btn" />
+      </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+      <div class="footer-text">
+        <p>Copyright &copy; 2025 | All Rights Reserved.</p>
+      </div>
+
+      <div class="footer-iconTop">
+        <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+      </div>
+    </footer>
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
