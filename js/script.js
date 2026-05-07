@@ -72,7 +72,7 @@ ScrollReveal({
 ScrollReveal().reveal(".home-content, .heading", { origin: "top" });
 ScrollReveal().reveal(
   ".home-img img, .skills-container, .portfolio-box, .contact form",
-  { origin: "bottom" }
+  { origin: "bottom" },
 );
 ScrollReveal().reveal(".home-content h1, .about-img img", { origin: "left" });
 ScrollReveal().reveal(".home-content h3, .home-content p, .about-content", {
@@ -89,3 +89,5 @@ ScrollReveal().reveal(".skills", {
     });
   },
 });
+
+document.getElementById("currentYear").textContent = new Date().getFullYear();
